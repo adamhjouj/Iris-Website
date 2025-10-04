@@ -7,14 +7,16 @@ export const FeaturesSection = () => {
   return (
     <section className="container px-4 py-24">
       {/* Header Section */}
-      <div className="max-w-2xl mb-20">
-        <h2 className="text-5xl md:text-6xl font-normal mb-6 tracking-tight text-left">
-          Advanced Trading
+      <div className="max-w-4xl mb-24" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <h2 className="text-7xl md:text-8xl font-black mb-10 tracking-tight text-left leading-tight" style={{textAlign: 'center'}}>
+          <span className="bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent">
+            Revolutionary Computer
+          </span>
           <br />
-          <span className="text-gradient font-medium">Features & Tools</span>
+          <span className="text-gradient font-black">Control Features</span>
         </h2>
-        <p className="text-lg md:text-xl text-gray-400 text-left">
-          Experience professional-grade trading tools and features designed for both novice and experienced crypto traders.
+        <p className="text-2xl md:text-3xl text-gray-200 text-left leading-relaxed font-semibold max-w-4xl">
+          Experience cutting-edge AI technology that transforms how you interact with your computer using voice and gestures.
         </p>
       </div>
 
@@ -40,21 +42,7 @@ export const FeaturesSection = () => {
             </TabsList>
           </div>
 
-          {/* Right side - Tab content with images */}
-          <div className="md:col-span-7">
-            {features.map((feature) => (
-              <TabsContent
-                key={feature.title}
-                value={feature.title}
-                className="mt-0 h-full"
-              >
-                <FeatureContent
-                  image={feature.image}
-                  title={feature.title}
-                />
-              </TabsContent>
-            ))}
-          </div>
+          
         </div>
       </Tabs>
     </section>

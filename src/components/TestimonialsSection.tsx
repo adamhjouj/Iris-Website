@@ -7,39 +7,39 @@ import { Card } from "./ui/card";
 const testimonials = [
   {
     name: "Michael Chen",
-    role: "Professional Trader",
+    role: "Software Developer",
     image: "https://avatars.githubusercontent.com/u/1234567?v=4",
-    content: "The real-time market data and advanced trading features have significantly improved my trading performance. The platform's security measures give me peace of mind."
+    content: "Iris has completely transformed how I work. I can code hands-free using voice commands and gesture controls. It's like having a personal assistant that understands exactly what I need."
   },
   {
     name: "Sarah Johnson",
-    role: "Crypto Fund Manager",
+    role: "Accessibility Consultant",
     image: "https://avatars.githubusercontent.com/u/2345678?v=4",
-    content: "CryptoTrade's institutional-grade tools have transformed our trading strategy. The API integration and automated features have saved us countless hours."
+    content: "As someone with mobility challenges, Iris has given me back my independence. The voice recognition is incredibly accurate and the gesture controls work flawlessly."
   },
   {
     name: "David Wilson",
-    role: "Early Crypto Investor",
+    role: "Content Creator",
     image: "https://avatars.githubusercontent.com/u/3456789?v=4",
-    content: "The customer support is exceptional, and the platform's intuitive design made getting started with crypto trading seamless. A game-changer for both beginners and pros."
+    content: "I can now edit videos and create content without touching my keyboard. The AI understands complex commands and executes them perfectly. It's revolutionary."
   },
   {
     name: "Emily Zhang",
-    role: "DeFi Developer",
+    role: "UX Designer",
     image: "https://avatars.githubusercontent.com/u/4567890?v=4",
-    content: "We've seen remarkable improvements in our trading efficiency since switching to CryptoTrade. The smart order routing and liquidity aggregation are particularly impressive."
+    content: "Iris has made my design workflow so much more efficient. I can navigate through design tools using gestures and voice commands. It's like magic."
   },
   {
     name: "James Rodriguez",
-    role: "Crypto Security Expert",
+    role: "IT Professional",
     image: "https://avatars.githubusercontent.com/u/5678901?v=4",
-    content: "The security features are robust and the regular updates keep us ahead of emerging threats. It's exactly what the crypto industry needed."
+    content: "The security features are robust and the AI learning capabilities are impressive. Iris adapts to my work patterns and becomes more efficient over time."
   },
   {
     name: "Lisa Thompson",
-    role: "Portfolio Manager",
+    role: "Product Manager",
     image: "https://avatars.githubusercontent.com/u/6789012?v=4",
-    content: "The platform's ability to handle complex trading strategies while maintaining simplicity in its interface is remarkable. It's been invaluable for our portfolio management."
+    content: "Managing multiple projects is now effortless with Iris. I can switch between applications, take notes, and organize my work using natural voice commands."
   }
 ];
 
@@ -54,9 +54,9 @@ const TestimonialsSection = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl font-normal mb-4">Trusted by Traders</h2>
+          <h2 className="text-5xl font-normal mb-4">Trusted by Users</h2>
           <p className="text-muted-foreground text-lg">
-            Join thousands of satisfied traders on CryptoTrade
+            Join thousands of satisfied users who have transformed their computer experience
           </p>
         </motion.div>
 
