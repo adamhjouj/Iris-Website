@@ -18,8 +18,8 @@ export const TextGenerateEffect = ({
   useEffect(() => {
     const controls = animate(count, words.length, {
       type: "tween",
-      duration: 5.0, // Much longer duration for ultra-smooth animation
-      ease: "easeOut", // Natural deceleration for smoother feel
+      duration: 2,
+      ease: "linear",
     });
     return controls.stop;
   }, [words]);
