@@ -4,23 +4,23 @@ import { Mic, Camera, Brain, Zap } from 'lucide-react';
 const features = [
   {
     icon: <Mic className="w-8 h-8 text-blue-300/90 drop-shadow-[0_0_8px_rgba(59,130,246,0.3)]" />,
-    title: "Voice Control Interface",
-    description: "Advanced AI voice recognition that understands natural speech patterns and commands.",
+    title: "Enhanced Accessibility",
+    description: "Empower users with limited mobility to navigate computers effortlessly. Iris opens doors to digital independence.",
   },
   {
     icon: <Camera className="w-8 h-8 text-blue-300/90 drop-shadow-[0_0_8px_rgba(59,130,246,0.3)]" />,
-    title: "Gesture Recognition",
-    description: "Computer vision technology that tracks hand movements and gestures with precision.",
+    title: "Precision Control",
+    description: "Sub-pixel accuracy with advanced calibration algorithms. Your eyes become the most precise pointing device.",
   },
   {
     icon: <Brain className="w-8 h-8 text-blue-300/90 drop-shadow-[0_0_8px_rgba(59,130,246,0.3)]" />,
-    title: "AI-Powered Automation",
-    description: "Smart automation that learns your patterns and adapts to your workflow.",
+    title: "Hands-Free Computing",
+    description: "Work, browse, and create without touching a mouse. Perfect for multitasking and ergonomic computing.",
   },
   {
     icon: <Zap className="w-8 h-8 text-blue-300/90 drop-shadow-[0_0_8px_rgba(59,130,246,0.3)]" />,
-    title: "Lightning-Fast Response",
-    description: "Ultra-low latency processing ensures your commands are executed instantly.",
+    title: "Lightning Fast",
+    description: "Real-time eye tracking with minimal latency. Experience instantaneous cursor movement that follows your gaze.",
   }
 ];
 
