@@ -83,7 +83,12 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 text-white font-black text-xl px-10 py-5 rounded-full shadow-2xl hover:shadow-blue-500/40 transition-all duration-300 transform hover:scale-110 border-2 border-blue-400/20"
-              onClick={scrollToDownload}
+              onClick={() => {
+                const downloadBtn = document.querySelector('button:has(.group-hover\\:translate-x-1)');
+                if (downloadBtn) {
+                  downloadBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+              }}
             >
               Get Started
             </Button>
@@ -259,7 +264,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 opacity-40"
           style={{
-            backgroundImage: 'url("/lovable-uploads/21f3edfb-62b5-4e35-9d03-7339d803b980.png")',
+            backgroundImage: 'url("/lovable-uploads/imageedit_1_5949587200.png")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

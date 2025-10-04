@@ -78,7 +78,12 @@ const Navigation = () => {
               </a>
             ))}
             <Button 
-              onClick={() => scrollToSection('cta')}
+              onClick={() => {
+                const downloadBtn = document.querySelector('button:has(.group-hover\\:translate-x-1)');
+                if (downloadBtn) {
+                  downloadBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+              }}
               size="sm"
               className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 text-white font-semibold px-6 py-2 rounded-full shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105"
             >
@@ -115,7 +120,10 @@ const Navigation = () => {
                   <Button 
                     onClick={() => {
                       setIsMobileMenuOpen(false);
-                      scrollToSection('cta');
+                      const downloadBtn = document.querySelector('button:has(.group-hover\\:translate-x-1)');
+                      if (downloadBtn) {
+                        downloadBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                      }
                     }}
                     className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105 mt-4"
                   >
